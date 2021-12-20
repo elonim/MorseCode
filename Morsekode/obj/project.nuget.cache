@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "nLZS3HwQp6VqFCKpUznEDts5+tw5CTQDkiKonoJCRC8v5SdczuxlIgINP1yPZXxoyDxGhyxN9mJhTQfBgjV2Hg==",
+  "dgSpecHash": "EjPDLKVlQwXNRjwYchPwsg/4QgHokvwtrxrrERWSAlgHjpvomwpmziPtMHcoTCIWBTulzqlBJRQ4vcre1bcJhg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\madss\\source\\repos\\Morsekode\\Morsekode\\Morsekode.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\Rober\\Source\\Repos\\robskaar\\MorseCode\\Morsekode\\Morsekode.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Rober\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.13\\microsoft.netcore.app.host.win-x64.3.1.13.nupkg.sha512"
+  ],
   "logs": []
 }
