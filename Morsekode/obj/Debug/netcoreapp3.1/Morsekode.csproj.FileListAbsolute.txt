@@ -1,0 +1,13 @@
+C:\Users\Rober\Source\Repos\robskaar\MorseCode\Morsekode\obj\Debug\netcoreapp3.1\Morsekode.csprojAssemblyReference.cache
+C:\Users\Rober\Source\Repos\robskaar\MorseCode\Morsekode\obj\Debug\netcoreapp3.1\Morsekode.AssemblyInfoInputs.cache
+C:\Users\Rober\Source\Repos\robskaar\MorseCode\Morsekode\obj\Debug\netcoreapp3.1\Morsekode.AssemblyInfo.cs
+C:\Users\Rober\Source\Repos\robskaar\MorseCode\Morsekode\obj\Debug\netcoreapp3.1\Morsekode.csproj.CoreCompileInputs.cache
+C:\Users\Rober\Source\Repos\robskaar\MorseCode\Morsekode\bin\Debug\netcoreapp3.1\Morsekode.exe
+C:\Users\Rober\Source\Repos\robskaar\MorseCode\Morsekode\bin\Debug\netcoreapp3.1\Morsekode.deps.json
+C:\Users\Rober\Source\Repos\robskaar\MorseCode\Morsekode\bin\Debug\netcoreapp3.1\Morsekode.runtimeconfig.json
+C:\Users\Rober\Source\Repos\robskaar\MorseCode\Morsekode\bin\Debug\netcoreapp3.1\Morsekode.runtimeconfig.dev.json
+C:\Users\Rober\Source\Repos\robskaar\MorseCode\Morsekode\bin\Debug\netcoreapp3.1\Morsekode.dll
+C:\Users\Rober\Source\Repos\robskaar\MorseCode\Morsekode\bin\Debug\netcoreapp3.1\Morsekode.pdb
+C:\Users\Rober\Source\Repos\robskaar\MorseCode\Morsekode\obj\Debug\netcoreapp3.1\Morsekode.dll
+C:\Users\Rober\Source\Repos\robskaar\MorseCode\Morsekode\obj\Debug\netcoreapp3.1\Morsekode.pdb
+C:\Users\Rober\Source\Repos\robskaar\MorseCode\Morsekode\obj\Debug\netcoreapp3.1\Morsekode.genruntimeconfig.cache
