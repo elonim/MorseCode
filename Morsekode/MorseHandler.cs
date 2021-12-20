@@ -51,14 +51,22 @@ namespace Morsekode
         {
             foreach (char morseSymbol in morseSentence)
             {
-                if (morseSymbol == '·')
-                    Console.Beep(650, 120);
+                switch (morseSymbol)
+                {
+                    case '·':
+                        Console.Beep(650, 120);
+                        break;
+                    case '—':
+                        Console.Beep(650, 400);
+                        break;
+                    case '/':
 
-                else if (morseSymbol == '—')
-                    Console.Beep(650, 400);
+                        Thread.Sleep(500);
+                        break;
 
-                else if (morseSymbol == '/')
-                    Thread.Sleep(500);
+                    default:
+                        break;
+                }
             }
         }
     }
