@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text;
 using System.Threading;
 
 namespace Morsekode
@@ -25,21 +24,21 @@ namespace Morsekode
         /// </summary>
         /// <param name="sentence">should be typeof string, but can contain any letter, spaces and numbers, will throw error on special characters</param>
         /// <returns>string of morsecode</returns>
-        public string convertToMorse(string sentence)
+        public string convertToMorse( string sentence )
         {
             var beep = string.Empty;
-            foreach (char letterOrNumber in sentence)
+            foreach ( char letterOrNumber in sentence )
             {
                 try
                 {
-                    beep += MORSEDICTIONARY[letterOrNumber.ToString()];
+                    beep += MORSEDICTIONARY[ letterOrNumber.ToString() ];
                 }
-                catch (Exception)
+                catch ( Exception )
                 {
 
-                    throw new ArgumentException("Please no special characters in the input sentence");
+                    throw new ArgumentException( "Please no special characters in the input sentence" );
                 }
-                
+
             }
             return beep;
         }
@@ -47,21 +46,21 @@ namespace Morsekode
         /// plays a morsecode sentence, e.g "hi you" in morse "······ —·—————··—"
         /// </summary>
         /// <param name="morseSentence"> should contain morsecode in string format, e.g "hi you" in morse "······ —·—————··—" </param>
-        public void playMorse(string morseSentence)
+        public void playMorse( string morseSentence )
         {
-            foreach (char morseSymbol in morseSentence)
+            foreach ( char morseSymbol in morseSentence )
             {
-                switch (morseSymbol)
+                switch ( morseSymbol )
                 {
                     case '·':
-                        Console.Beep(650, 120);
+                        Console.Beep( 650, 120 );
                         break;
                     case '—':
-                        Console.Beep(650, 400);
+                        Console.Beep( 650, 400 );
                         break;
                     case '/':
 
-                        Thread.Sleep(500);
+                        Thread.Sleep( 500 );
                         break;
 
                     default:
