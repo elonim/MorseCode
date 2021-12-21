@@ -6,47 +6,47 @@ namespace Morsekode
     class Program
     {
 
-        
-        private static void changeConsoleColor(ConsoleColor color)
+
+        private static void changeConsoleColor( ConsoleColor color )
         {
             Console.ForegroundColor = color;
         }
-        
 
-        
-        static void Main(string[] args)
+
+
+        static void Main( string[] args )
         {
 
-            
-            while (true) 
+
+            while ( true )
             {
                 Console.Clear();
-                changeConsoleColor(ConsoleColor.DarkGreen);
-                Console.WriteLine("\n\t\tMorseCode Translator");
+                changeConsoleColor( ConsoleColor.DarkGreen );
+                Console.WriteLine( "\n\t\tMorseCode Translator" );
                 MorseHandler morseHandler = new MorseHandler();
-                changeConsoleColor(ConsoleColor.Black);
-                Console.Write("\n\twrite a sentence to get it translated into morse: ");
+                changeConsoleColor( ConsoleColor.Gray );
+                Console.Write( "\n\twrite a sentence to get it translated into morse: " );
 
 
-                string input = Console.ReadLine().ToUpper();
+                var input = Console.ReadLine().ToUpper();
                 try
                 {
-                    var morse = morseHandler.convertToMorse(input);
-                    changeConsoleColor(ConsoleColor.DarkBlue);
-                    Console.Write("\t" + input);
-                    changeConsoleColor(ConsoleColor.DarkGray);
-                    Console.Write(" \tin morsecode : "+morse);
-                    morseHandler.playMorse(morse);
+                    var morse = morseHandler.convertToMorse( input );
+                    changeConsoleColor( ConsoleColor.DarkBlue );
+                    Console.Write( "\t" + input );
+                    changeConsoleColor( ConsoleColor.DarkGray );
+                    Console.Write( " \n\tin morsecode : " + morse );
+                    morseHandler.playMorse( morse );
                     Console.WriteLine();
                 }
-                catch (Exception ex)
+                catch ( Exception ex )
                 {
-                    changeConsoleColor(ConsoleColor.Red);
-                    Console.WriteLine("\tFailed : "+ex.Message);
-                    Thread.Sleep(2500);
+                    changeConsoleColor( ConsoleColor.Red );
+                    Console.WriteLine( "\tFailed : " + ex.Message );
+                    Thread.Sleep( 2500 );
                 }
-                
-                
+
+
             }
         }
     }
